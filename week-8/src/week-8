@@ -1,0 +1,26 @@
+Borrowing 
+
+
+Referencing = '&'
+Referencing is only readOnly
+
+Mutable Reference
+
+Restriction
+s =10;
+let r1 = &mut s
+let r2 = &mut s
+do ko borrow ni kersakty 
+
+this is not allowed 
+address
+
+Struct Structure/Custom-Datatype
+engineer by existing primitive datatype
+= Syntax =
+Struct User{
+    username:       String, // 2-byte
+    email:          String, // 2-byte
+    sign_in_count:  u64,    // 64-bit
+    active:         bool    // 1-bit
+}

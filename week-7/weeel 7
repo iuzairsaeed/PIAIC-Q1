@@ -1,0 +1,58 @@
+// let mut x = 0 ;
+    // while x <10{
+    //     println!("{}" , x);
+    //     x += 1;
+    // }
+    
+
+// --Understanding Ownership--
+
+// Rust acces both memory
+// Memory
+// access by pointer (pointer is address of memory)
+    // 1. stack memory , 2. heap memory
+    // both structure is different
+        // 1.
+        // stack structure
+        // stack followe LIFO
+        // Stack store = pushing
+        // Stack remove = popping 
+        // stack is an organized memory
+        // faster than heap memory
+
+        // 2.
+        // heap is less organized 
+        // size will be unknown
+        // when you store/put data we ask to OS for some memory then Os allocate then we store/put data
+        // slower
+        // follow pointer 
+        // take time too mange data 
+
+        
+
+all scope/function fn have its own STACK_FRAME
+//Stack frame
+main have its own frame
+seems like box , values stored in ()main => 5,heloo
+frame pushed in stack memory
+
+Another_function have diffreent frame
+and orderwise values which is declared
+
+STACK = (5,"hello" , 6 , 10 , true , 2.3);
+
+// OWNERSHIP RULES
+1. each value in rust has a variable thats called its owner
+    just like variable is owner of value;
+2. value has 1 oenwer   
+3. when owner foes out of scope the value will be dropped / Free.
+
+// Address of heap allocation push/stored in STACKs
+
+//Rust dont allow shallow copy
+shallow (is me references copy hoty hai {jo hum ni kersakty })
+deep
+move
+
+primitive (jo lang k sath aty hai) = deep 
+non -priitive(String::from()) = move

@@ -1,0 +1,6 @@
+1.
+When we call String::from(), its implementation requests the memory it needs.Variable "x" cannot be print because of "move copy" occur  when y=x
+second reason is x have non-primitve value .
+
+2.
+    

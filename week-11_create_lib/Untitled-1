@@ -1,0 +1,13 @@
+Notes
+Crates
+    crate root is lib.rs
+    and it has multiple module
+Path
+    Absolute_path
+    start from the root "/"
+    
+    Relative Path
+    start from current directory
+    
+Pub enum
+    Variants will automatically be publc

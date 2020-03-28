@@ -1,0 +1,7 @@
+Context = jis k bare me bat ho
+
+ENUM ( ek aur tariqa hai custom datatype banany k liye )
+
+Associated fucntion is function where there is not &self Parms
+
+Method is what where is self params

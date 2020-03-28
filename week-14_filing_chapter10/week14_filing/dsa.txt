@@ -1,0 +1,5 @@
+uzair
+
+fun(string,2){
+    print 2 times
+}
